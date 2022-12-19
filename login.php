@@ -63,7 +63,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     </div>
 
   
-    <a href="a" target="_blank"> Forgot Password?</a> </br></br>
+     <!-- <a href="a" target="_blank"> Forgot Password?</a> </br></br> -->
     <a href="register.php" target="_blank">Want to be a friend? Register here</a> 
  
 
@@ -76,66 +76,3 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
 
 
-<!-- <section class="contact-us">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-lg-12">
-        <div class="down-contact">
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="sidebar-item contact-form">
-                <div class="sidebar-heading">
-                  <h2>Log In!</h2>
-                </div>
-                <div class="content">
-                  <form id="contact" action="" method="post">
-                    <div class="row">
-                      <div class="col-md-6 col-sm-12">
-                        <fieldset>
-                          <input name="Uname" type="text" id="Uname" placeholder="Enter your User Name" required="">
-                        </fieldset>
-                      </div>
-
-
-                      <div class="row">
-                      <div class="col-md-6 col-sm-12">
-                        <fieldset>
-                          <input name="password" type="text" id="password" placeholder="Enter your Password" required="">
-                        </fieldset>
-                      </div>
-
-
-
-
-                      <div class="col-lg-12">
-                        <fieldset>
-                          <button type="submit" id="form-submit" class="main-button">Log In</button>
-                        </fieldset>
-
-                      </br></br>
-                        <fieldset>
-                        <a href="a"> Forgot Password </a> <hr> </hr> <a href="signup.php"> Not Yet A Member?</a>
-                        </fieldset>
-
-
-
-
-
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-
-
-    </div>
-  </div>
-</section>
--->
