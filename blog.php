@@ -51,34 +51,35 @@
               <?php } ?>
               <h4 class="h4">Search</h4>
               
-              <form id="search_form" name="gs" method="GET" action="#">
-                <input type="text" name="q" class="form-control form-control-lg" placeholder="type to search..." autocomplete="on">
-              </form>
-
-              <br>
+              <div class="container">
+  <form class="form-inline" method="post" action="search.php">
+    <input type="text" name="roll_no" class="form-control" placeholder="Search blog..">
+    <button type="submit" name="save" class="btn btn-primary">Search</button>
+  </form>
+</div>      <br>
               <br>
 
               <h4 class="h4">Recent posts</h4>
 
               <ul>
                   <li>
-                      <h5 style="margin-bottom:10px;"><a href="blog-details.html">Dolorum corporis ullam, reiciendis inventore est repudiandae</a></h5>
-                      <small><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10</small>
+                      <h5 style="margin-bottom:10px;"><a href="food.php">Food for the soul!</a></h5>
+                      <small></i> Green Day &nbsp;</small>
                   </li>
 
                   <li><br></li>
 
                   <li>
-                      <h5 style="margin-bottom:10px;"><a href="blog-details.html">Culpa ab quasi in rerum dolorum impedit expedita</a></h5>
-                      <small><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10</small>
+                      <h5 style="margin-bottom:10px;"><a href="news.php">Cheers to life!</a></h5>
+                      <small></i> Henry Jacobs &nbsp;</small>
                   </li>
 
                   <li><br></li>
 
                   <li>
-                    <h5 style="margin-bottom:10px;"><a href="blog-details.html">Explicabo soluta corrupti dolor doloribus optio dolorum</a></h5>
+                    <h5 style="margin-bottom:10px;"><a href="events.php">Wonderlust consumed!</a></h5>
 
-                    <small><i class="fa fa-user"></i> John Doe &nbsp;|&nbsp; <i class="fa fa-calendar"></i> 27.07.2020 10:10</small>
+                    <small></i> Apple Davis &nbsp;</small>
                   </li>
               </ul>
           </div>

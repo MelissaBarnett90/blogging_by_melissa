@@ -8,7 +8,7 @@ include_once 'includes/session.php'
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -97,17 +97,35 @@ include_once 'includes/session.php'
 
                                 <?php } ?>
 
+
+                                <?php
+                             if (isset($_SESSION['username']) && $_SESSION['username'] === "admin"){
+                            ?>
+
                                 <li class="nav-item">
-                                    <a class="nav-link" href="blog.php">Blog</a>
+                                    <a class="nav-link" href="viewrecords.php">View Records</a>
                                 </li>
+
+                           
+                                <?php } else { ?>               <?php } ?>                      
+                                    
+                              
 
                                 <li class="nav-item">
                                     <a class="nav-link" href="team.php">Authors</a>
                                 </li>
 
                                 <li class="nav-item">
+                                    <a class="nav-link" href="blog.php">Blog</a>
+                                </li>
+
+
+                                <li class="nav-item">
                                     <a class="nav-link" href="contact.php">Contact Us</a>
                                 </li>
+
+                               
+
                             </ul>
                     </div>
                 </div>

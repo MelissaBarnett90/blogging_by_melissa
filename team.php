@@ -19,7 +19,7 @@
             <div class="col-md-3 col-sm-4">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="uploads/team1.jpeg" alt="">
+                  <img src="uploads/team3.jpeg" alt="">
                 </div>
                 <div class="down-content">
                   <span>Authors</span>
@@ -49,7 +49,7 @@
             <div class="col-md-3 col-sm-4">
               <div class="blog-post">
                 <div class="blog-thumb">
-                  <img src="uploads/team3.jpeg" alt="">
+                  <img src="uploads/team1.jpeg" alt="">
                 </div>
                 <div class="down-content">
                   <span>Author</span>

@@ -24,7 +24,7 @@ Jordan | Built around the belief that everyone has a right to tell their own sto
 
 According to New York-based founder Mohsin Mohi Ud Din, the key to the workshops is that they are taught by other refugees, creating a unique community that’s “for the people, by the people.”
 
-The results are compelling, he says: participants have reported reduced aggression and improved communication skills. At the end of the sessions, they’re invited to tell their stories through theatre productions, book projects and the like. —Robert Liwanag
+The results are compelling, he says: participants have reported reduced aggression and improved communication skills. At the end of the sessions, they’re invited to tell their stories through theatre productions, book projects and the like. 
 
 
 
@@ -39,7 +39,4 @@ The results are compelling, he says: participants have reported reduced aggressi
 
 
 
-
-
-Kind Regards,
-Melissa Barnett
+<?php require_once 'includes/footer.php'; ?>
