@@ -53,7 +53,7 @@
               
               <div class="container">
   <form class="form-inline" method="post" action="search.php">
-    <input type="text" name="roll_no" class="form-control" placeholder="Search blog..">
+    <input type="text" name="roll_no" class="form-control" placeholder="Search blog.">
     <button type="submit" name="save" class="btn btn-primary">Search</button>
   </form>
 </div>      <br>

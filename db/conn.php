@@ -4,18 +4,18 @@
   
   
  // In development connection below
-    $host = 'localhost';
-    $db = 'blog_db';
-    $user = 'root';
-    $pass = '';
-    $charset = 'ut8mb4';
+    // $host = 'localhost';
+    // $db = 'blog_db';
+    // $user = 'root';
+    // $pass = '';
+    // $charset = 'ut8mb4';
 
 //    //remote database connection
-//     $host = 'sql5.freemysqlhosting.net';
-//     $db = 'sql5529256';
-//     $user = 'sql5529256';
-//     $pass = 'tQmYqYpycV';
-//     $charset = 'ut8mb4';
+    $host = 'sql.freedb.tech';
+    $db = 'freedb_bloggingbymelissa';
+    $user = 'freedb_bloggingbymelissa';
+    $pass = 'khGuqCe#9n8rSx5';
+    $charset = 'ut8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;$charset";
 
